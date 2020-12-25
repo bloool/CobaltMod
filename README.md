@@ -1,5 +1,5 @@
 # Cobalt Mod
-(Currently WIP) A mindustry mod that aims to add more unique turrets.
+(Currently WIP) A mindustry mod that aims to add more unique turrets and itens.
 
 # Turrets
  
