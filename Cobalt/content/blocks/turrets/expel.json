@@ -1,0 +1,43 @@
+{
+	"type": "ItemTurret",
+	"name": Expel,
+	"size": 3,
+	"health": 2400,
+	"reloadTime": 120,
+	"range": 300,
+	"maxAmmo": 5,
+	"shots": 1,
+	"shootSound" : "artillery",
+	"recoilAmount" : 2,
+	"targetAir" : false, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"graphite": {
+			"type" : "ArtilleryBulletType",
+			"damage": 200,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 100,
+			"splashDamageRadius": 25,
+			"fragBullets": 10,
+			"fragBullet": {
+					"type" : "BombBulletType",
+					"damage": 50,
+					"height": 20,
+					"width" : 20,
+					"splashDamage": 50,
+					"splashDamageRadius": 15,
+				},
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "titanium", "amount": 60 }, 
+		{ "item": "thorium", "amount": 80 }
+		{ "item": "graphite", "amount": 50 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}
