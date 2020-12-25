@@ -1,0 +1,58 @@
+{
+	"type": "ItemTurret",
+	"name": Vorpal,
+	"size": 4,
+	"health": 3500,
+	"reloadTime": 30,
+	"range": 180,
+	"maxAmmo": 40,
+	"inaccuracy": 10,
+	"spread": 15,
+	"shots": 5,
+	"shootSound" : "artillery",
+	"shootcone": 50,
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"screenshake": 0.4,
+	
+	"ammoTypes": {
+		"lead": {
+			"type" : "ShrapnelBulletType",
+			"damage": 100,
+			"length": 200,
+			"width" : 8,
+			},
+		"metaglass": {
+			"type" : "ShrapnelBulletType",
+			"damage": 120,
+			"length": 250,
+			"width" : 10,
+			},
+		"silicon": {
+			"type" : "ShrapnelBulletType",
+			"damage": 150,
+			"length": 280,
+			"width" : 12,
+			"toColor" :"4D4E58",
+			"ammoMultiplier": 8
+			},
+		"surge-alloy": {
+			"type" : "ShrapnelBulletType",
+			"damage": 180,
+			"length": 300,
+			"width" : 16,
+			"toColor" :"F2E878",
+			"ammoMultiplier": 4
+			},
+		},
+		
+	"requirements": [
+		{ "item": "silicon", "amount": 50},
+		{ "item": "graphite", "amount": 80 }
+		{ "item": "titanium", "amount": 120 }
+		{ "item": "plastanium", "amount": 75 }
+	],
+	"category": "turret",
+	"research": "lancer"
+}
