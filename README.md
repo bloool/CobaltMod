@@ -11,7 +11,7 @@
  
  - Sky Taker, long range turret that shoots shrapnel one air enemies;
  
- - Fusion, short range turret that shoots pieces of shrapnel extremely fast;
+ - Fusion, short range turret that shoots pieces of shrapnel extremely fast; (thanks to a friend of mine, Zockin for helping me remake this sprite!)
  
  - Vorpal, end-game fuse that shoots 5 shots in a more random fashion;
  
