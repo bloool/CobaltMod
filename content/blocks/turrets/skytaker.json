@@ -15,19 +15,19 @@
 	"screenshake": 0.2,
 	
 	"ammoTypes": {
-		"lead": {
+		"titanium": {
 			"type" : "ShrapnelBulletType",
 			"damage": 100,
 			"length": 400,
 			"width" : 10,
-			"toColor" :"1B2558",
+			"toColor" :"7575C8",
 			},
-		"metaglass": {
+		"thorium": {
 			"type" : "ShrapnelBulletType",
 			"damage": 200,
 			"length": 500,
 			"width" : 25,
-			"toColor" :"FFFFFF",
+			"toColor" :"F8A3C7",
 			},
 		"surge-alloy": {
 			"type" : "ShrapnelBulletType",

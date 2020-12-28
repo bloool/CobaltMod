@@ -18,27 +18,21 @@
 	"targetGround" : true, 
 	
 	"ammoTypes": {
-		"lead": {
+		"titanium": {
 			"type" : "ShrapnelBulletType",
 			"damage": 20,
 			"length": 55,
 			"width" : 8,
-			"ammoMultiplier": 2
+			"ammoMultiplier": 2,
+			"toColor" :"7575C8",
 			},
-		"metaglass": {
+		"thorium": {
 			"type" : "ShrapnelBulletType",
 			"damage": 35,
 			"length": 70,
 			"width" : 10,
-			"ammoMultiplier": 4
-			},
-		"silicon": {
-			"type" : "ShrapnelBulletType",
-			"damage": 45,
-			"length": 85,
-			"width" : 12,
-			"toColor" :"4D4E58",
-			"ammoMultiplier": 16
+			"ammoMultiplier": 4,
+			"toColor" :"F8A3C7",
 			},
 		"surge-alloy": {
 			"type" : "ShrapnelBulletType", 
