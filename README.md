@@ -9,7 +9,7 @@
  
  - Storm, a shotgun-like air only turret;
  
- - Sky Taker, long range turret that shoots shrapnel one air enemies;
+ - Sky Taker, long range turret that shoots shrapnel on air enemies;
  
  - Fusion, short range turret that shoots pieces of shrapnel extremely fast; (thanks to a friend of mine, Zockin for helping me remake this sprite!)
  
