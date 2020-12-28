@@ -67,9 +67,9 @@
 		},
 		
 	"requirements": [
-		{ "item": "silicon", "amount": 35 },
-		{ "item": "lead", "amount": 80 }
-		{ "item": "surge-alloy", "amount": 60 }
+		{ "item": "silicon", "amount": 70 },
+		{ "item": "lead", "amount": 180 }
+		{ "item": "surge-alloy", "amount": 120 }
 	],
 	"category": "turret",
 	"research": "tornado"

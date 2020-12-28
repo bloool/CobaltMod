@@ -51,9 +51,9 @@
 		},
 		
 	"requirements": [
-		{ "item": "copper", "amount": 60 },
-		{ "item": "lead", "amount": 80 }
-		{ "item": "titanium", "amount": 50 }
+		{ "item": "copper", "amount": 250 },
+		{ "item": "lead", "amount": 120 }
+		{ "item": "titanium", "amount": 80 }
 	],
 	"category": "turret",
 	"research": "lancer"

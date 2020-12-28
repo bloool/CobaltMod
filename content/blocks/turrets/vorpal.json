@@ -48,10 +48,10 @@
 		},
 		
 	"requirements": [
-		{ "item": "silicon", "amount": 50},
-		{ "item": "graphite", "amount": 80 }
-		{ "item": "titanium", "amount": 120 }
-		{ "item": "plastanium", "amount": 75 }
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "graphite", "amount": 95 }
+		{ "item": "titanium", "amount": 300 }
+		{ "item": "plastanium", "amount": 100 }
 	],
 	"category": "turret",
 	"research": "lancer"

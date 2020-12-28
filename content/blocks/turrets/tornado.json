@@ -63,9 +63,9 @@
 		},
 		
 	"requirements": [
-		{ "item": "silicon", "amount": 35 },
-		{ "item": "lead", "amount": 80 }
-		{ "item": "titanium", "amount": 60 }
+		{ "item": "silicon", "amount": 70 },
+		{ "item": "lead", "amount": 160 }
+		{ "item": "titanium", "amount": 120 }
 	],
 	"category": "turret",
 	"research": "scatter"

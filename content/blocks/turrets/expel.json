@@ -34,9 +34,9 @@
 		},	
 		
 	"requirements": [
-		{ "item": "titanium", "amount": 60 }, 
-		{ "item": "thorium", "amount": 80 }
-		{ "item": "graphite", "amount": 50 }
+		{ "item": "titanium", "amount": 120 }, 
+		{ "item": "thorium", "amount": 180 }
+		{ "item": "graphite", "amount": 260 }
 	],
 	"category": "turret",
 	"research": "ripple"

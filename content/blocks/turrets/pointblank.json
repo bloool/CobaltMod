@@ -36,9 +36,9 @@
 		},	
 		
 	"requirements": [
-		{ "item": "surge-alloy", "amount": 40 }, 
-		{ "item": "silicon", "amount": 35 }
-		{ "item": "graphite", "amount": 80 }
+		{ "item": "surge-alloy", "amount": 50 }, 
+		{ "item": "silicon", "amount": 90 }
+		{ "item": "graphite", "amount": 380 }
 	],
 	"category": "turret",
 	"research": "expel"
