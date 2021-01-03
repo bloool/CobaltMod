@@ -1,0 +1,62 @@
+{
+	"type": "ItemTurret",
+	"name": "Daedalus",
+	"description":"Rains down shells at enemies at close range.",
+	"size": 3,
+	"health": 1900,
+	"reloadTime": 10,
+	"range": 150,
+	"maxAmmo": 20,
+	"inaccuracy": 20,
+	"ammoEjectBack": 5f,
+	"velocityInaccuracy": 0.5,
+	"shots": 5,
+	"shootSound" : "artillery",
+	"recoilAmount" : 2,
+	"targetAir" : false, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"graphite": {
+			"type" : "ArtilleryBulletType",
+			"damage": 10,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 30,
+			"splashDamageRadius": 25,
+			},
+		"silicon": {
+			"type" : "ArtilleryBulletType",
+			"damage": 10,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 35,
+			"splashDamageRadius": 25,
+			"homingPower": 0.5,
+			"homingRange": 50,
+			"backColor": "53565c",
+			},
+		"pyratite": {
+			"type" : "ArtilleryBulletType",
+			"damage": 10,
+			"height": 20,
+			"width" : 20,
+			"speed" : 2,
+			"splashDamage": 25,
+			"splashDamageRadius": 25,
+			"incendAmount": 1,
+			"frontColor" : "ffaa5f",
+			"backColor" : "ffaa5f",
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "silicon", "amount": 80 }, 
+		{ "item": "titanium", "amount": 120 }
+		{ "item": "graphite", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}
