@@ -2,7 +2,7 @@ name: cobaltmod
 displayName: Cobalt Mod
 description: This mod aims to add more diferent weapons in the game, like air only turrets(scatter),  and shrapnel turrets(fuse)
 author: blool
-version: 0.5
+version: 0.6
 main: blool22/CobaltMod
-minGameVersion: 122
+minGameVersion: 122.1
 
