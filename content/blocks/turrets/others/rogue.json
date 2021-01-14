@@ -1,0 +1,79 @@
+{
+	"type": "ItemTurret",
+	"name": "Rogue",
+	"description":"Shoots thousands weak bullets at enemies.",
+	"size": 4,
+	"health": 2050,
+	"reloadTime": 0.1,
+	"xRand": 10,
+	"range": 350,
+	"velocityInaccuracy": 0.5,
+	"maxAmmo": 50,
+	"shots": 5,
+	"shootShake": 1,
+	"shootSound" : "shootSnap",
+	"inaccuracy": 10,
+	"shootCone": 70,
+	"rotatespeed": 10,
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true, 
+	
+	"ammoTypes": {
+		"lead": {
+			"type" : "BasicBulletType",
+			"damage": 12,
+			"speed": 7.0,
+			"lifetime": 50,
+			"height": 8,
+			"width" : 8,
+			"ammoMultiplier": 5
+			},
+		"scrap": {
+			"type" : "BasicBulletType",
+			"damage": 5,
+			"speed": 5.0,
+			"lifetime": 50,
+			"height": 4,
+			"width" : 4,
+			"ammoMultiplier": 3
+			},
+		"copper": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 6.0,
+			"lifetime": 50,
+			"height": 6,
+			"width" : 6,
+			"ammoMultiplier": 4
+			},
+		"metaglass": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 6.0,
+			"lifetime": 50,
+			"height": 6,
+			"width" : 6,
+			"ammoMultiplier": 4,
+			"pierce": true,
+			},
+		"silicon": {
+			"type" : "BasicBulletType",
+			"damage": 10,
+			"speed": 8.0,
+			"lifetime": 50,
+			"height": 15,
+			"width" : 10,
+			"homingPower": 0.05,
+			"homingRange": 250,
+			"ammoMultiplier": 10
+			},
+		},
+		
+	"requirements": [
+		{ "item": "copper", "amount": 70 },
+		{ "item": "lead", "amount": 160 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}

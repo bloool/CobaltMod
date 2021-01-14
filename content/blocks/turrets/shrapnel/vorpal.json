@@ -1,0 +1,52 @@
+{
+	"type": "ItemTurret",
+	"name": "Vorpal",
+	"description":"",
+	"size": 4,
+	"health": 2800,
+	"reloadTime": 10,
+	"range": 200,
+	"maxAmmo": 20,
+	"shots": 3,
+	"alternate": true,
+	"spread": 8,
+	"shootShake": 2,
+	"inaccuracy": 1,
+	"shootSound" : "artillery",
+	"recoilAmount" : 2,
+	"targetAir" : true, 
+	"targetGround" : true,
+	
+	"ammoTypes": {
+		"titanium": {
+			"type" : "ShrapnelBulletType",
+			"damage": 75,
+			"length": 220,
+			"width" : 20,
+			"toColor" :"7575C8",
+			},
+		"thorium": {
+			"type" : "ShrapnelBulletType",
+			"damage": 150,
+			"length": 260,
+			"width" : 30,
+			"toColor" :"F8A3C7",
+			},
+		"surge-alloy": {
+			"type" : "ShrapnelBulletType",
+			"damage": 250,
+			"length": 280,
+			"width" : 40,
+			"toColor" :"F2E878",
+			"ammoMultiplier": 4
+			},
+		},	
+		
+	"requirements": [
+		{ "item": "titanium", "amount": 580 }, 
+		{ "item": "surge-alloy", "amount": 150 }
+		{ "item": "graphite", "amount": 450 }
+	],
+	"category": "turret",
+	"research": "fuse"
+}

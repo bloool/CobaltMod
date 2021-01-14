@@ -1,0 +1,40 @@
+{
+	"type": "PowerTurret",
+	"name": "Skewer",
+	"description":"Shoots long range lasers at ground enemies",
+	"size": 4,
+	"health": 3400,
+	"reloadTime": 20,
+	"range": 380,
+	"shots": 1,
+	"shootSound" : "laser",
+	"restitution" : 0.1,
+	"shootEffect": "lightningShoot",
+	"inaccuracy": 5,
+	"powerUse": 15,
+	"targetAir" : false, 
+	"targetGround" : true, 
+	"recoilAmount" : 6,
+	"shootShake": 2,
+	"chargeTime" : 20,
+	"chargeEffects" : 15,
+	 
+	"chargeEffect" : "lancerLaserCharge",
+	"chargeBeginEffect" : "lancerLaserChargeBegin",
+
+	"shootType": {
+		"type": "LaserBulletType",
+		"damage": 150,
+		"length": 350,
+		"lifetime": 32,
+		"width" : 40,
+		"hitEffect": "hitLancer",
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 540 },
+		{ "item": "surge-alloy", "amount": 120}
+		{ "item": "graphite", "amount": 140 }
+	],
+	"category": "turret",
+	"research": "bolt"
+}

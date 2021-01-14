@@ -1,0 +1,32 @@
+{
+	"type": "PowerTurret",
+	"name": "Coil",
+	"description":"Discharges lightning super fast",
+	"size": 4,
+	"health": 3560,
+	"reloadTime": 60,
+	"range": 240,
+	"shots": 15,
+	"burstSpacing": 2,
+	"shootSound" : "spark",
+	"shootCone": 40,
+	"rotatespeed": 150,
+	"restitution" : 0.1,
+	"shootEffect": "lightningShoot",
+	"powerUse": 10,
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootShake": 2,
+	"shootType": {
+		"type": "LightningBulletType",
+		"damage": 25,
+		"lightningLengtht": 85,
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 240 },
+		{ "item": "surge-alloy", "amount": 180 }
+		{ "item": "thorium", "amount": 120 }
+	],
+	"category": "turret",
+	"research": "static"
+}
