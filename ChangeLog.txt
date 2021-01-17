@@ -1,12 +1,8 @@
-# Version 0.6
- - 3 new turrets! Discharge, Daedalus and Rogue;
+# Version 0.8
+- 6 new turrets, all of wich use power to shoot;
+- They have different types os projectiles such as lightning, lasers or bolts;
 
- - Balance changes to tornado and storm;
- 
- - Changed how Expel and Point-Blank explosives work;
- 
- - Fixed all turrets names having a "," after them;
- 
- - Turrets now have in-game descriptions;
- 
- 
+- Changed sprites for shrapnel turrets sprites;
+- Changed how vorpal  works;
+
+# The next update will be the 1.0 so stay tuned
