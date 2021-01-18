@@ -1,0 +1,81 @@
+type: ItemTurret
+name: Storm Eye
+description: Long range shotgun turret that can only shoot air enemies
+
+size: 4
+health: 3500
+reloadTime: 24
+range: 360
+maxAmmo: 50
+shots: 4
+velocityInaccuracy: 0.1
+shootSound: artillery
+shootShake: 3
+inaccuracy: 25
+shootCone: 55
+recoilAmount: 4
+targetAir: true
+targetGround: false,
+
+ammoTypes: {
+  lead: {
+    type: BasicBulletType
+    damage: 25
+    speed: 4.0
+    lifetime: 100
+    height: 20
+    width: 12
+  }
+  silicon: {
+    type: BasicBulletType
+    damage: 60
+    speed: 5.0
+    lifetime: 100
+    homingPower: 0.2
+    homingRange: 48
+    height: 24
+    width: 16
+  }
+  metaglass: {
+    type: FlakBulletType
+    damage: 40
+    speed: 4.0
+    lifetime: 100
+    height: 24
+    width: 16
+    fragBullets: 5
+    fragBullet: {
+      type: ShrapnelBulletType
+      damage: 15
+      length: 30
+      width: 10
+    }
+  }
+  surge-alloy: {
+    type: MissileBulletType
+    damage: 125
+    splashDamageRadius: 40
+    splashDamage: 20
+    speed: 4.0
+    lifetime: 100
+    height: 15
+    width: 15
+    homingPower: 0.5
+    homingRange: 96
+    hitEffect: shockwave
+    frontColor: F2E878
+    backColor: D89F6B
+    ammoMultiplier: 3
+    lightining: 10
+    lightningLength: 15
+  }
+}
+
+requirements: [
+  silicon/70
+  lead/180
+  surge-alloy/120
+]
+
+category: turret
+research: tornado
