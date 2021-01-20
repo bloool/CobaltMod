@@ -3,7 +3,7 @@
 
 # Content
 
- Currently only adds 10 turrets but in the future will have a new material and maybe some support blocks.
+ Currently only adds 17 turrets but in the future will have a new material and maybe some support blocks.
 
 # Future changes
 
