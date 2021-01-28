@@ -9,7 +9,6 @@
 	"shots": 15,
 	"shootSound" : "spark",
 	"shootCone": 180,
-	"rotatespeed": 150,
 	"restitution" : 0.1,
 	"shootEffect": "lightningShoot",
 	"powerUse": 6,

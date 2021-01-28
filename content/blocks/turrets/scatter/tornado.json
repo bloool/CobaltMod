@@ -9,7 +9,6 @@
 	"shots": 2,
 	"shootSound" : "shootSnap",
 	"inaccuracy": 35,
-	"shootcone": 70,
 	"recoilAmount" : 2,
 	"targetAir" : true, 
 	"targetGround" : false, 

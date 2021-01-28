@@ -2,7 +2,6 @@
 	"type": "ItemTurret",
 	"name": "Discharge",
 	"description": "Shoots discharges of bullets at enemies.",
-	"detail": "test",
 	"size": 3,
 	"health": 2050,
 	"reloadTime": 48,

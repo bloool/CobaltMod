@@ -15,7 +15,6 @@
 	"shootShake": 3,
 	"targetAir" : true, 
 	"targetGround" : false,
-	"screenshake": 0.2,
 	
 	"ammoTypes": {
 		"titanium": {
@@ -38,7 +37,6 @@
 			"length": 850,
 			"width" : 40,
 			"toColor" :"F2E878",
-			"attackSpeed": 0.5,
 			"ammoMultiplier": 4
 			}
 		},	
