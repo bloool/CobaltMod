@@ -9,7 +9,6 @@
 	"shots": 5,
 	"shootSound" : "spark",
 	"shootCone": 40,
-	"rotatespeed": 150,
 	"restitution" : 0.1,
 	"shootEffect": "lightningShoot",
 	"powerUse": 1,
@@ -18,11 +17,11 @@
 	"shootType": {
 		"type": "LightningBulletType",
 		"damage": 15,
-		"lightningLength": 12,
+		"lightningLength": 12
 	},
 	"requirements": [
 		{ "item": "graphite", "amount": 80 },
-		{ "item": "lead", "amount": 120 }
+		{ "item": "lead", "amount": 120 },
 		{ "item": "copper", "amount": 80 }
 	],
 	"category": "turret",

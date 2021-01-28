@@ -19,7 +19,7 @@
 	"shootType": {
 		"type": "LightningBulletType",
 		"damage": 20,
-		"lightningLengtht": 36,
+		"lightningLengtht": 36
 	},
 	"requirements": [
 		{ "item": "graphite", "amount": 120 },

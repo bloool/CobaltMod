@@ -10,7 +10,6 @@
 	"shootSound" : "shootSnap",
 	"inaccuracy": 35,
 	"shootcone": 70,
-	"rotatespeed": 10,
 	"recoilAmount" : 2,
 	"targetAir" : true, 
 	"targetGround" : false, 
@@ -22,7 +21,7 @@
 			"splashDamage" : 25,
 			"speed": 5.0,
 			"height": 8,
-			"width" : 8,
+			"width" : 8
 			},
 		"metaglass": {
 			"type" : "FlakBulletType",
@@ -36,8 +35,8 @@
 				"type" : "ShrapnelBulletType",
 				"damage": 5,
 				"length": 10,
-				"width" : 5,
-				},
+				"width" : 5
+				}
 			},
 		"silicon": {
 			"type" : "FlakBulletType",
@@ -58,13 +57,13 @@
 			"width" : 10,
 			"homingRange": 150,
 			"homingPower": 0.1,
-			"hitEffect": "shockwave",
-			},
+			"hitEffect": "shockwave"
+			}
 		},
 		
 	"requirements": [
 		{ "item": "silicon", "amount": 70 },
-		{ "item": "lead", "amount": 160 }
+		{ "item": "lead", "amount": 160 },
 		{ "item": "thorium", "amount": 120 }
 	],
 	"category": "turret",

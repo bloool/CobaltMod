@@ -15,7 +15,6 @@
 	"inaccuracy": 1,
 	"shootCone": 70,
 	"velocityInaccuracy": 0.1,
-	"rotatespeed": 10,
 	"recoilAmount" : 2,
 	"targetAir" : true, 
 	"targetGround" : true, 
@@ -27,7 +26,7 @@
 			"speed": 8.0,
 			"lifetime": 50,
 			"height": 16,
-			"width" : 8,
+			"width" : 8
 			},
 		"graphite": {
 			"type" : "BasicBulletType",
@@ -66,12 +65,12 @@
 			"height": 22,
 			"width" : 8,
 			"ammoMultiplier": 4
-			},
+			}
 		},
 		
 	"requirements": [
 		{ "item": "silicon", "amount": 95 },
-		{ "item": "thorium", "amount": 250 }
+		{ "item": "thorium", "amount": 250 },
 		{ "item": "plastanium", "amount": 180 }
 	],
 	"category": "turret",

@@ -11,8 +11,6 @@
 	"shots": 1,
 	"shootSound" : "shootSnap",
 	"inaccuracy": 20,
-	"shootcone": 10,
-	"rotatespeed": 32,
 	"recoilAmount" : 2,
 	"restitution" : 0.1,
 	"targetAir" : true, 
@@ -25,7 +23,7 @@
 			"length": 55,
 			"width" : 8,
 			"ammoMultiplier": 2,
-			"toColor" :"7575C8",
+			"toColor" :"7575C8"
 			},
 		"thorium": {
 			"type" : "ShrapnelBulletType",
@@ -33,7 +31,7 @@
 			"length": 70,
 			"width" : 10,
 			"ammoMultiplier": 4,
-			"toColor" :"F8A3C7",
+			"toColor" :"F8A3C7"
 			},
 		"surge-alloy": {
 			"type" : "ShrapnelBulletType", 
@@ -42,12 +40,12 @@
 			"width" : 16,
 			"toColor" :"F2E878",
 			"ammoMultiplier": 8
-			},
+			}
 		},
 		
 	"requirements": [
 		{ "item": "copper", "amount": 250 },
-		{ "item": "lead", "amount": 120 }
+		{ "item": "lead", "amount": 120 },
 		{ "item": "titanium", "amount": 80 }
 	],
 	"category": "turret",

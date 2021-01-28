@@ -6,7 +6,6 @@
 	"health": 3400,
 	"reloadTime": 20,
 	"range": 380,
-	"shots": 1,
 	"shootSound" : "laser",
 	"restitution" : 0.1,
 	"shootEffect": "lightningShoot",
@@ -28,11 +27,11 @@
 		"length": 350,
 		"lifetime": 32,
 		"width" : 40,
-		"hitEffect": "hitLancer",
+		"hitEffect": "hitLancer"
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 540 },
-		{ "item": "surge-alloy", "amount": 120}
+		{ "item": "surge-alloy", "amount": 120},
 		{ "item": "graphite", "amount": 140 }
 	],
 	"category": "turret",

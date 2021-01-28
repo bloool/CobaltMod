@@ -23,14 +23,14 @@
 			"damage": 75,
 			"length": 220,
 			"width" : 20,
-			"toColor" :"7575C8",
+			"toColor" :"7575C8"
 			},
 		"thorium": {
 			"type" : "ShrapnelBulletType",
 			"damage": 150,
 			"length": 260,
 			"width" : 30,
-			"toColor" :"F8A3C7",
+			"toColor" :"F8A3C7"
 			},
 		"surge-alloy": {
 			"type" : "ShrapnelBulletType",
@@ -39,12 +39,12 @@
 			"width" : 40,
 			"toColor" :"F2E878",
 			"ammoMultiplier": 4
-			},
+			}
 		},	
 		
 	"requirements": [
 		{ "item": "titanium", "amount": 580 }, 
-		{ "item": "surge-alloy", "amount": 150 }
+		{ "item": "surge-alloy", "amount": 150 },
 		{ "item": "graphite", "amount": 450 }
 	],
 	"category": "turret",

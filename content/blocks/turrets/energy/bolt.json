@@ -8,9 +8,8 @@
 	"range": 175,
 	"shots": 1,
 	"shootSound" : "laser",
-	"shootCone": 40,
+	"shootCone": 180,
 	"inaccuracy": 25,
-	"rotatespeed": 50,
 	"restitution" : 0.1,
 	"shootEffect": "lightningShoot",
 	"powerUse": 4,
@@ -32,13 +31,13 @@
 		"fragBullet" : {
 			"type": "LightningBulletType",
 			"damage": 8,
-			"lightningLength": 10,
-		},
+			"lightningLength": 10
+		}
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 120 },
 		{ "item": "graphite", "amount": 40 },
-		{ "item": "titanium", "amount": 60 },
+		{ "item": "titanium", "amount": 60 }
 	],
 	"category": "turret",
 	"research": "zap"

@@ -35,11 +35,11 @@
 		"homingPower": 0.2,
 		"homingRange": 250,
 		"pierce": true,
-		"hitEffect": "hitLancer",
+		"hitEffect": "hitLancer"
 	},
 	"requirements": [
 		{ "item": "silicon", "amount": 240 },
-		{ "item": "thorium", "amount": 80 }
+		{ "item": "thorium", "amount": 80 },
 		{ "item": "lead", "amount": 140 }
 	],
 	"category": "turret",

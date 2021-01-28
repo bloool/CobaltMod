@@ -36,8 +36,8 @@
 				"splashDamageRadius": 15,
 				"speed" : 4,
 				"velocityInaccuracy": 0.2,
-				"hitEffect":"shockwave",
-				},
+				"hitEffect":"shockwave"
+				}
 			},
 		"silicon": {
 			"type" : "ArtilleryBulletType",
@@ -64,8 +64,8 @@
 				"homingPower": 0.2,
 				"homingRange": 50,
 				"backColor": "53565c",
-				"hitEffect":"shockwave",
-				},
+				"hitEffect":"shockwave"
+				}
 			},
 		"pyratite": {
 			"type" : "ArtilleryBulletType",
@@ -92,8 +92,8 @@
 				"incendAmount": 1,
 				"frontColor" : "ffaa5f",
 				"backColor" : "ffaa5f",
-				"hitEffect":"shockwave",
-				},
+				"hitEffect":"shockwave"
+				}
 			},
 
 			"plastanium": {
@@ -125,13 +125,13 @@
 						"velocityInaccuracy": 0.2,
 						"lifetime": 25
 					}
-				},
-			},
-		},	
+				}
+			}
+		},
 		
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 50 }, 
-		{ "item": "silicon", "amount": 90 }
+		{ "item": "silicon", "amount": 90 },
 		{ "item": "graphite", "amount": 380 }
 	],
 	"category": "turret",
